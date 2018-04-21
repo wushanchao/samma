@@ -1,4 +1,4 @@
-const Samma = require('../index.js');
+const Samma = require('../lib/index.js');
 
 const samma = Samma({
     cmd:[
