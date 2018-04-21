@@ -1,5 +1,5 @@
-# Samma
-`Samma`是一个命令行语法解析配置库。  
+# samma
+`samma`是一个命令行语法解析配置库。  
 目标是方便用户在Chrome控制台使用命令行语法进行页面交互。  
 也可用于Node环境。  
 
@@ -54,7 +54,7 @@
 浏览器环境下：  
 在页面JS中注入代码：  
 ```javascript
-const Samma = require('Samma');
+const Samma = require('samma');
 
 Samma({
     global:'samma',
@@ -77,7 +77,7 @@ samma('Hello -name world');
 
 Node环境下：  
 ```javascript
-const Samma = require('Samma');
+const Samma = require('samma');
 
 const samma = Samma({
     cmd:[
