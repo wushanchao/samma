@@ -51,6 +51,11 @@
 ```
 
 ### 使用方法
+安装：  
+```
+npm install samma --save
+```
+
 浏览器环境下：  
 在页面JS中注入代码：  
 ```javascript
