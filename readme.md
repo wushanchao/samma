@@ -107,3 +107,8 @@ samma('Hello -name world');
 -x3=4解析不出来  
 -x3解析成{x:3}  
 ```
+
+### todo
+使用Decorator（修饰器函数），对Action进行自动转化成命令。减少用户自定义命令函数的劳动。
+
+
